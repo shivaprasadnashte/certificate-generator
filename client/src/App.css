@@ -1,0 +1,62 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.container {
+  text-align: start;
+  padding-bottom: 20px;
+}
+
+.input-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.input-label {
+  display: block;
+  font-size: 18px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .input-container {
+    max-width: 90%;
+    padding: 0rem;
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

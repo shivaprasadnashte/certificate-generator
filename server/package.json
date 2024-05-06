@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is assignment made for assignment",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "build": "npm i"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "shivapradsd nashte",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^136.0.0",
+    "mongoose": "^8.3.3",
+    "nodemailer": "^6.9.13",
+    "pdfkit": "^0.15.0",
+    "puppeteer": "^22.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.9",
+    "nodemon": "^3.1.0"
+  }
+}
